@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
 
-        etItem.setText("I'm doing this from Java!");
-
         loadItems();
 
         ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener(){
